@@ -1,4 +1,4 @@
-class profile:web {
+class profile:ha {
   include docker
 }
 
