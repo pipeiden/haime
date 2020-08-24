@@ -1,5 +1,5 @@
 node default {
 }
-node 'homeassistant1' {
+node 'client1' {
   include role::ha_client
 }
