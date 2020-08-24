@@ -1,5 +1,5 @@
 node default {
-  file {'/root/README':
-    ensure => file,
-  }
+}
+node 'homeassistant1' {
+  include role::ha_client
 }
